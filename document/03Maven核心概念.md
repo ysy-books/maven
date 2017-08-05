@@ -313,6 +313,7 @@ Default 生命周期是 Maven 生命周期中最重要的一个，绝大部分�
 
 **如何配置聚合？**
 
+在总的聚合工程中使用 modules/module 标签组合，指定模块工程的相对路径即可
 ```
 <modules>
   <module>labi-common-base</module>
