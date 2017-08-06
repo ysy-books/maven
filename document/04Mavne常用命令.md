@@ -25,6 +25,7 @@ mvn archetype:generate   固定格式
 
 
 快速创建
+
 ```
 $ mvn archetype:generate -DgroupId=com.labi.common -DartifactId=labi -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 ```

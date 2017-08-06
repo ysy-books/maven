@@ -123,6 +123,7 @@ A 依赖 B，B 依赖 C，A 能否使用 C 呢？那要看 B 依赖 C 的范围�
 取出来
 
 * 统一版本号
+
 ```
 <properties>
   <interfaceSys.version>1.3.0</interfaceSys.version>
@@ -137,6 +138,7 @@ A 依赖 B，B 依赖 C，A 能否使用 C 呢？那要看 B 依赖 C 的范围�
 ```
 
 * 指定项目编码
+
 ```
 <properties>
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -299,6 +301,7 @@ Default 生命周期是 Maven 生命周期中最重要的一个，绝大部分�
 ```
 
 在子项目中重新指定需要的依赖，删除范围和版本号
+
 ```
 <dependencies>
   <dependency>
@@ -318,6 +321,7 @@ Default 生命周期是 Maven 生命周期中最重要的一个，绝大部分�
 **如何配置聚合？**
 
 在总的聚合工程中使用 modules/module 标签组合，指定模块工程的相对路径即可
+
 ```
 <modules>
   <module>labi-common-base</module>
