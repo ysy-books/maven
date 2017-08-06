@@ -39,6 +39,10 @@ Maven 对工程目录结构的要求就属于后面的一种。
 * groupid：所属组
 * artifactId：模块ID
 * version：模块版本
+* packaging 打包方式
+  * jar（默认）
+  * war web项目
+  * pom 项目管理
 
 ```
 <groupId>com.labi.interfaceSys</groupId>
@@ -199,7 +203,7 @@ Clean 生命周期一共包含了三个阶段：
 **Default 生命周期**
 
 Default 生命周期是 Maven 生命周期中最重要的一个，绝大部分工作都发生在这个生命周期中。这里， 只解释一些比较重要和常用的阶段：
-* validate
+* validate 验证工程是否正确，所有需要的资源是否可用
 * generate-sources
 * process-sources
 * generate-resources
